@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #A31C3B;
+    --secondary-color: #570317;
+    --terciary-color: #B0072E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
