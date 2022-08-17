@@ -29,7 +29,7 @@ form {
     font-size: 3rem;
     gap: 20px;
     border-radius: 10px;
-    box-shadow: 3px 3px 10px 3px #1d1d1d;
+    box-shadow: 3px 3px 10px 2px #1d1d1d;
 }
 
 form input, form button {
@@ -44,7 +44,7 @@ form input, form button {
     justify-content: center;
     padding: 40px 60px;
     border-radius: 20px;
-    box-shadow: 0 0 20px 5px #333;
+    box-shadow: 0 0 20px 3px #3338;
 }
 
 .container input {
@@ -63,7 +63,7 @@ form input, form button {
     border: none;
     padding: 10px 5px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 5px #333;
+    box-shadow: 0 0 10px 5px #3338;
     transition: 400ms ease;
 }
 
