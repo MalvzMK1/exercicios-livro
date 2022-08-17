@@ -1,0 +1,45 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--terciary-color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    width: fit-content;
+    height: 500px;
+    padding: 100px 50px;
+    border-radius: 10px;
+    gap: 20px;
+    font-size: 2rem;
+}
+
+.displayArea {
+    width: 100%;
+    height: 200px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, button {
+    font-size: 1.4rem;
+    text-align: center;
+}

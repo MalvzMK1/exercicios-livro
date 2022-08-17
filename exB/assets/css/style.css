@@ -28,6 +28,8 @@ form {
     align-items: center;
     font-size: 3rem;
     gap: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 3px #1d1d1d;
 }
 
 form input, form button {
@@ -75,4 +77,8 @@ form input, form button {
     width: 100%;
     background-color: var(--primary-color);
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
 }

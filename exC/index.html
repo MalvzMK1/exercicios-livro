@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio livro 3) c</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <main>
+        <form>
+            <div class="container">
+                <div class="inputContainer">
+                    <label for="score1">Nota 1:</label>
+                    <input type="number" name="score1" id="score1" class="scoreInput" max="100" min="0" required>
+                </div>
+                <div class="inputContainer">
+                    <label for="score2">Nota 2:</label>
+                    <input type="number" name="score2" id="score2" class="scoreInput" max="100" min="0" required>
+                </div>
+            </div>
+            <div class="container">
+                <div class="inputContainer">
+                    <label for="score3">Nota 3:</label>
+                    <input type="number" name="score3" id="score3" class="scoreInput" max="100" min="0" required>
+                </div>
+                <div class="inputContainer">
+                    <label for="score4">Nota 4:</label>
+                    <input type="number" name="score4" id="score4" class="scoreInput" max="100" min="0" required>
+                </div>
+            </div>
+            <button type="button" class="submitButton" id="submitButton">Calcular média</button>
+            <div class="resultArea" id="resultArea"></div>
+        </form>
+    </main>
+</body>
+</html>
